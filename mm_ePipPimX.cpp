@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
   }, {"ex","ey","ez","pipx","pipy","pipz","pimx","pimy","pimz"});
 
 
-  auto h1 = rdf.Histo1D({"mePipPimX","missing mass",200,0,2}, "mePipPimX");
+  auto h1 = rdf.Histo1D({"mePipPimX","missing mass",200,0.6,1.4}, "mePipPimX");
 
   auto c1 = new TCanvas("c1","c1",1100,800);
   h1->Draw();
